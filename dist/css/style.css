@@ -460,7 +460,6 @@ input, select {
   max-height: 0;
   transform: translate(0, 50%);
   animation: flipdown 0.5s ease both;
-  display: none;
 }
 
 .product__params {
@@ -519,7 +518,6 @@ input, select {
   transform: translate(0, 0);
   max-height: 1000px;
   opacity: 1;
-  display: block;
 }
 
 .product.active .product__order, .product.active .product__images {
