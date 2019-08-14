@@ -41,10 +41,12 @@
     color: lighten($color-dark, 10%);
   }
 
-  &__wrapper {
+  &__wrapper
+   { 
     @include flex(row, center, space-between);
     @include accordion-closed();
     animation: flipdown 0.5s ease both;
+    display: none;
   }
 
   &__params {
@@ -101,6 +103,7 @@
   &.active {
     .product__wrapper {
       @include accordion-open();
+      display: block;
     }
 
     .product__order, .product__images {
@@ -125,3 +128,5 @@
   }
 
 }
+
+

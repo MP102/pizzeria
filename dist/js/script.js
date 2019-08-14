@@ -72,7 +72,7 @@
       const thisProduct = this;
       
     /* find the clickable trigger (the element that should react to clicking) */
-    const clickableTrigger = document.querySelector('.product__header');
+    const clickableTrigger =this.element.querySelector('.product__header');
     /* START: click event listener to trigger */
     clickableTrigger.addEventListener('click', function(event){
       console.log('clicked');
@@ -129,3 +129,4 @@
 
   app.init();
 }
+//Patryk Buła
